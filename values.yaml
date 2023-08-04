@@ -1,3 +1,7 @@
 appName: shipping
 appPort: 8080
 params: "prod.shipping.cart_endpoint prod.rds.db_user prod.rds.db_pass"
+
+schema:
+  enabled: true
+  type: mysql
