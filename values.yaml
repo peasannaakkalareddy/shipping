@@ -1,6 +1,6 @@
 appName: shipping
 appPort: 8080
-params: "prod.shipping.cart_endpoint prod.rds.db_user prod.rds.db_pass"
+params: "prod.shipping.cart_endpoint prod.rds.db_user prod.rds.db_pass prod.rds.db_host"
 
 schema:
   enabled: true
